@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.vimo.demo.notification",
+    "packageFolder": "com/vimo/demo/notification",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "notification",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "buildTool": "maven",
+    "serverPort": "8083",
+    "skipUserManagement": true,
+    "jhipsterVersion": "6.1.0",
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "NTQ4NDk1OGIwYWMyMDg0OTMxOGE4MzUyMWFlMTU1NGQ1Nzg1NWQxNTM3MzExZDdhNDZiZjZiMDM4MTY0ZWQ1YzYzZGI3ZjJlZjI5NmU5OTczYjBjMzMzMDI3OGIwYjQ3MGZkODY4ZTM1NmYyMTQ1ZGQ1ZTk0M2Y0YjRmYTU5NTY=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "entities": [
+    "Notification"
+  ]
+}

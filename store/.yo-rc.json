@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.vimo.demo.store",
+    "packageFolder": "com/vimo/demo/store",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": false,
+    "skipServer": false,
+    "testFrameworks": [
+      "protractor"
+    ],
+    "websocket": false,
+    "baseName": "store",
+    "applicationType": "gateway",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "buildTool": "maven",
+    "clientFramework": "react",
+    "useSass": true,
+    "jhipsterVersion": "6.1.0",
+    "skipUserManagement": false,
+    "clientPackageManager": "npm",
+    "serverPort": "8080",
+    "jwtSecretKey": "NGYzOWI5MDUyNmQ1ZWVjODNlYTc4OGY5NzA2MzVkOWQ1MjE0YzQzMmE4NDdmMmZjZjU1M2EwOTRmMmYyYjBhY2Y0MTAyYzc2Mjc3ZjVlYWMzZDY2YTk2Yzc0NGJiNjE2ZmQ4MzMxZTE4MzAzODM3ZTkzNjg1OGI5YzhlZmZlMzc=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "entities": [
+    "Customer",
+    "Product",
+    "ProductCategory",
+    "ProductOrder",
+    "OrderItem",
+    "Invoice",
+    "Shipment",
+    "Notification"
+  ]
+}
