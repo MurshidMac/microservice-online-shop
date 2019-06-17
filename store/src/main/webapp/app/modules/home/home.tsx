@@ -4,7 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Translate } from 'react-jhipster';
 import { connect } from 'react-redux';
-import { Container, Row, Col, Alert, Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button } from 'reactstrap';
+import { Container, Row, Col, Card, CardImg, CardText, CardBody, CardLink, CardTitle, CardSubtitle } from 'reactstrap';
 
 import { IRootState } from 'app/shared/reducers';
 import { getSession } from 'app/shared/reducers/authentication';
@@ -23,27 +23,18 @@ export class Home extends React.Component<IHomeProp> {
           <Col>
             <div>
               <Card>
-                <CardImg className="autoparts" top width="100%" alt="Card image cap" />
                 <CardBody>
                   <CardTitle>Card title</CardTitle>
                   <CardSubtitle>Card subtitle</CardSubtitle>
-                  <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                  <Button>Button</Button>
                 </CardBody>
-              </Card>
-              <Card>
-                <CardImg className="autoparts" top width="100%" alt="Card image cap" />
+                <img width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
                 <CardBody>
-                  <CardTitle>Card title</CardTitle>
-                  <CardSubtitle>Card subtitle</CardSubtitle>
                   <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                  <Button>Button</Button>
+                  <CardLink href="#">Card Link</CardLink>
+                  <CardLink href="#">Another Link</CardLink>
                 </CardBody>
               </Card>
             </div>
-            <p>
-              <Translate contentKey="home.question">If you have any question on JHipster:</Translate>
-            </p>
           </Col>
         </Row>
       </Container>
